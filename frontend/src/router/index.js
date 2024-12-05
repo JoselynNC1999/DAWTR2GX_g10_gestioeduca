@@ -22,11 +22,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
     //   component: () => import('../components/LoginComponent.vue'),
     // },
-    // {
-    //   path: '/studentProfile',
-    //   name: 'studentProfile',
-    //   component: () => import('../components/ProfileStudentComponent.vue'),
-    // },
+    {
+    path: '/studentProfile',
+    name: 'studentProfile',
+    component: () => import('../components/ProfileStudentComponent.vue'),
+    },
     // {
     //   path: '/studentTeacher',
     //   name: 'studentTeacher',
